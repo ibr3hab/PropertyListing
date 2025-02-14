@@ -17,6 +17,7 @@ const FilterSort: React.FC<FilterSortProps> = ({ onFilter, onSort }) => {
   return (
     <div className="mb-8">
       <div className="flex gap-4 mb-4">
+        <h3>Minumum Price</h3>
         <input
           type="number"
           placeholder="Min Price"
@@ -24,6 +25,7 @@ const FilterSort: React.FC<FilterSortProps> = ({ onFilter, onSort }) => {
           onChange={(e) => setMinPrice(Number(e.target.value))}
           className="border p-2 rounded"
         />
+        <h3>Max Price</h3>
         <input
           type="number"
           placeholder="Max Price"
@@ -31,6 +33,7 @@ const FilterSort: React.FC<FilterSortProps> = ({ onFilter, onSort }) => {
           onChange={(e) => setMaxPrice(Number(e.target.value))}
           className="border p-2 rounded"
         />
+        <h3>Bedrooms</h3>
         <input
           type="number"
           placeholder="Bedrooms"
@@ -43,6 +46,7 @@ const FilterSort: React.FC<FilterSortProps> = ({ onFilter, onSort }) => {
         </button>
       </div>
       <div>
+        <h3>Price Filters</h3>
         <select
           onChange={(e) => onSort(e.target.value)}
           className="border p-2 rounded"

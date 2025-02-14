@@ -2,8 +2,10 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    "../pages/**/*.{js,ts,jsx,tsx}",      // For Pages Directory
-    "../components/**/*.{js,ts,jsx,tsx}", // For Components
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+    "./src/pages/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {},
