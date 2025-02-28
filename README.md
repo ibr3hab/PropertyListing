@@ -1,10 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Property Listing App built using TypeScript and NestJS for the backend and Next.js for the frontend. The application allows users to list, search, and manage property listings efficiently.
 
-## Getting Started
+Features
+
+Property listing creation from a manually created JSON file
+
+Advanced property search and filtering
+
+Optimized frontend performance with Next.js
+
+Tech Stack
+
+Backend: NestJS, TypeScript
+
+Frontend: Next.js, React, Tailwind CSS
+
+Deployment: Vercel (Frontend), DigitalOcean/AWS (Backend)
+
+Getting Started
 
 First, run the development server:
 
-```bash
 npm run dev
 # or
 yarn dev
@@ -12,25 +27,40 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the frontend in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Backend Setup
 
-## Learn More
+Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+git clone https://github.com/your-repo/property-listing-app.git
+cd property-listing-app/backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm install
 
-## Deploy on Vercel
+Run the backend server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run start:dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Learn More
+
+To learn more about the technologies used in this project, take a look at the following resources:
+
+Next.js Documentation - Learn about Next.js features and API.
+
+NestJS Documentation - Learn about NestJS fundamentals.
+
+TypeScript Docs - TypeScript language documentation.
+
+Deployment
+
+The easiest way to deploy your Next.js app is to use Vercel from the creators of Next.js.
+
+For backend deployment, you can use AWS, DigitalOcean, or Heroku.
+
+Check out the Next.js deployment documentation for more details.
